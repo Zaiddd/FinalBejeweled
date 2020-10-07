@@ -1,0 +1,63 @@
+:root {
+    --grid-cols: 1;
+    --grid-rows: 1;
+}
+
+#body{
+	background-color: #f9ffba;
+}
+
+#container {
+	padding: 0px;
+	width: 850px;
+	height: 650px;
+    display: grid;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+}
+
+.grid-item {
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+#newGame{
+	margin-left: 32%;
+	border-radius: 12px;
+	padding: 12px 28px;
+	background-color: #e7e7e7;
+}
+
+#highScore{
+	margin-left: 6%;
+	border-radius: 12px;
+	padding: 12px 28px;
+	background-color: #e7e7e7;
+}
+
+#pause{
+	margin-left: 6%;
+	border-radius: 12px;
+	padding: 12px 28px;
+	background-color: #e7e7e7;
+}
+
+#labelEssais{
+	margin-left: 26%;
+}
+
+#niv{
+	margin-left: 15%;
+}
+
+#labelScore{
+	margin-left: 15%;
+}
+
+#timer{
+	border: 1px black solid;
+	width: 70%;
+	margin-left: 15%;
+	background-color: green;
+}
+

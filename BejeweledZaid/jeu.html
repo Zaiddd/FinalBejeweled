@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <script src="https://cdn.rawgit.com/adriancooney/console.image/c9e6d4fd/console.image.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Bejeweled</title>
+</head>
+<body id="body">
+    <h1 style="text-align: center;"><b>Bejeweled</b></h1><br>
+    <input type="button" name="newGame" onclick="newGame();" value="Nouvelle partie" id="newGame">
+    <input type="button" name="pause" onclick="pause();" value="Pause" id="pause">
+    <input type="button" name="highScore" onclick="highScore();" value="Meilleurs scores" id="highScore">
+    <br><br>
+
+    <label id="labelEssais">Essais restants : <b id="essais">5</b></label>
+    <label id="niv">Niveau : <b id="labelNiveau">1</b></label>
+    <label id="labelScore">score : <b id="score">0</b></label><br><br>
+    <div id="barre">
+        <progress value="50" max="100" id="timer"></progress>
+    </div>
+
+    <br>
+    <div id="container" class="container" style="border-style: solid">
+        <script type="text/javascript" src="bejeweled.js"></script>
+    </div>
+    <br>
+    
+    <br>
+
+</div>
+</body>
+</html>
